@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exemplo do uso para o i18next</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://i18next.com/public/download/latest/i18next.js"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <style>
+    html { text-align: center; }
+    p { text-align: left; }
+    .btn { margin-top: 20px; }
+    .btn:active, .btn:focus { border: none; outline: none;}
+  </style>
+</head>
+<body>
+  
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12">
+        <button id="btn-es" title="" class="btn btn-primary" data-i18n="button.es;[title]button.titleES"></button>
+        <button id="btn-en" title="" class="btn btn-primary" data-i18n="button.en;[title]button.titleEN"></button>
+        <button id="btn-pt" title="" class="btn btn-primary" data-i18n="button.pt;[title]button.titlePT"></button> 
+      </div>
+
+      <div class="col-xs-8 col-xs-offset-2">
+        <h2 data-i18n="content.titulo"></h2>
+        <p data-i18n="content.paragrafoPrincipal"></p>
+
+        <br><br>
+
+        <figure>
+          <img src="imagem.jpg" height="339" width="800" alt="" data-i18n="imagem.principal;[alt]imagem.textoAlternativo">
+          <figcaption data-i18n="imagem.legenda"></figcaption>
+        </figure>
+
+        <br><br>
+
+        <p data-i18n="content.paragrafoSecundario"></p>
+
+        <a href="http://pt.wikipedia.org/wiki/Hist%C3%B3ria_do_Brasil" title="" data-i18n="link.referencia;[title]link.title"></a>
+    </div>
+  </div>
+
+<script>
+// Iniciando a lib
+  i18n.init({
+    fallbackLng: false //fallback quando não definir linguagem
+    ,debug: true //debug do plugin
+    ,fixLng: true //preserva o cookie quando a linguagem for definida
+    ,load: 'current' //define a forma correta de declarar linguagens
+  },
+  
+  function(translation) {
+    $('[data-i18n]').i18n();
+    var appName = translation('app.name');
+  });
+
+  // espanhol
+  $('#btn-es').on('click', function() {
+    i18n.setLng('es', {fixLng: true}, function(translation){
+      $('[data-i18n]').i18n();
+    });
+  });
+
+  // inglês
+  $('#btn-en').on('click', function() {
+    i18n.setLng('en-US', {fixLng: true}, function(translation){
+      $('[data-i18n]').i18n();
+    });
+  });
+
+  // português
+  $('#btn-pt').on('click', function() {
+    i18n.setLng('pt-BR', {fixLng: true}, function(translation){
+      $('[data-i18n]').i18n();
+    });
+  });
+
+</script>
+
+</body>
+</html>

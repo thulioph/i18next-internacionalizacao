@@ -1,0 +1,27 @@
+{
+  "app": {
+    "name" : "i18next"
+  }
+  ,"button" : {
+    "es" : "Español"
+    ,"en" : "Inglés"
+    ,"pt" : "Portugués"
+    ,"titleES" : "Español"
+    ,"titleEN" : "Inglés"
+    ,"titlePT" : "Portugués"
+  }
+  ,"content": {
+    "titulo": "Historia del Brasil",
+    "paragrafoPrincipal" : "La historia de Brasil comprende tradicionalmente el período transcurrido desde la llegada de los portugueses hasta nuestros días, aunque su territorio para ser habitada continuamente desde tiempos prehistóricos por personas indígena. Después de la llegada de Pedro Alvares Cabral, capitán de la expedición la ruta portuguesa a la India, la costa sur de Bahía, en 1500, la Corona Portugués implementó una política de colonización de la tierra recién encontradas de 1530 la colonización europeafue organizado a través de la distribución de la capitanía hereditaria por la corona portuguesa miembros de la nobleza y la instalación de un gobierno general en 1548.",
+    "paragrafoSecundario" : "La economía de la colonia, que comenzó con la extracción de madera de Brasil y los intercambios entre los colonos y los indios, vino gradualmente a ser dominada por el cultivo de la caña de azúcar para la exportación. A principios del siglo XVII, la provincia de Pernambuco alcanza el rango de mayor y el área más rica de la producción de azúcar en el mundo1 Con la expansión de los molinos y la ocupación de nuevas áreas para el cultivo, el territorio brasileño inserta en las rutas comerciales del viejo mundo y se convierte poco a poco ocupada por terratenientes, misioneros, hombres libres y amplia contingente de esclavos africanos. A finales del siglo XVII eran descubierto ricos yacimientos de oro en los actuales estados de Minas Gerais, 2 Goiás y Mato Grosso ha sido fundamental para el arreglo del interior de Brasil. En 1789, cuando la Corona portuguesa anunció el Vierta una medida para cargo alegó impuestos atrasados​​, entró en erupción en Vila Rica (hoy Ouro Preto) la Conspiración Minas. La revuelta fracasó y, en 1792, uno de sus líderes, Tiradentes, murió enforcado.3"
+  }
+  ,"imagem": {
+    "principal" : "",
+    "legenda" : "Llegada de alguien por el mar",
+    "textoAlternativo" : "Texto de la imagen Alternativa"
+  }
+  ,"link": {
+    "referencia" : "Referencia contenido",
+    "title" : "Referencia contenido"
+  }
+}

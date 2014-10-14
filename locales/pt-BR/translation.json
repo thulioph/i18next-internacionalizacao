@@ -1,0 +1,27 @@
+{
+  "app": {
+    "name" : "i18next"
+  }
+  ,"button" : {
+    "es" : "Espanhol"
+    ,"en" : "Inglês"
+    ,"pt" : "Português"
+    ,"titleES" : "Espanhol"
+    ,"titleEN" : "Inglês"
+    ,"titlePT" : "Português"
+  }
+  ,"content": {
+    "titulo": "História do Brasil",
+    "paragrafoPrincipal" : "A História do Brasil compreende, tradicionalmente, o período desde a chegada dos portugueses até os dias atuais, embora o seu território seja habitado continuamente desde tempos pré-históricos por povosindígenas. Após a chegada de Pedro Álvares Cabral, capitão-mor de expediçãoportuguesa a caminho das Índias, ao litoral sul da Bahia em 1500, a Coroa portuguesa implementou uma política de colonização para a terra recém-descoberta a partir de 1530. A colonização européia se organizou por meio da distribuição de capitanias hereditárias pela coroa portuguesa amembros da nobreza e pela instalação de um governo-geral em 1548.",
+    "paragrafoSecundario" : "A economia da colônia, iniciada com o extrativismo do pau-brasil e as trocas entre os colonos e os índios, gradualmente passou a ser dominada pelo cultivo da cana-de-açúcar para fins de exportação. No início do século XVII, a Capitania de Pernambuco atinge o posto de maior e mais rica área de produção de açúcar do mundo.1 Com a expansão dos engenhose a ocupação de novas áreas para seu cultivo, o território brasileiro se insere nas rotas de comércio do velho mundo e passa a ser paulatinamente ocupado por senhores de terra, missionários, homens livres e largos contingentes de escravos africanos. No final do século XVII foram descobertas ricas jazidas de ouro nos atuais estados de Minas Gerais,2 Goiás e Mato Grosso que foi determinante para o povoamento do interior do Brasil. Em 1789, quando a Coroa portuguesa anunciava a Derrama, medida para cobrar supostos impostos atrasados, eclodiu em Vila Rica (atual Ouro Preto) a Inconfidência Mineira. A revolta fracassou e, em 1792, um de seus líderes,Tiradentes, morreu enforcado.3"
+  }
+  ,"imagem": {
+    "principal" : "",
+    "legenda" : "Chegada de alguém pelo mar",
+    "textoAlternativo" : "Texto alternativo da imagem"
+  }
+  ,"link": {
+    "referencia" : "Referência do conteúdo",
+    "title" : "Referência do conteúdo"
+  }
+}

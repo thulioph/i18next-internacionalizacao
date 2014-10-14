@@ -1,0 +1,27 @@
+{
+  "app": {
+    "name" : "i18next"
+  }
+  ,"button" : {
+    "es" : "Spanish"
+    ,"en" : "English"
+    ,"pt" : "Portuguese"
+    ,"titleES" : "Spanish"
+    ,"titleEN" : "English"
+    ,"titlePT" : "Portuguese"
+  }
+  ,"content": {
+    "titulo": "History of Brazil",
+    "paragrafoPrincipal" : "The History of Brazil comprises traditionally the period since the arrival of the Portuguese to the present day, although its territory to be continuously inhabited since prehistoric times by people indigenous. After the arrival of Pedro Alvares Cabral, captain of expedition the Portuguese route to India, the southern coast of Bahia in 1500, the Crown Portuguese implemented a policy of colonization to the land newly found from 1530 European colonization was organized through the distribution of hereditary captaincy by the Portuguese crown members of the nobility and the installation of a government-general in 1548.",
+    "paragrafoSecundario" : "The economy of the colony, which began with the extraction of Brazil wood and exchanges between the settlers and the Indians,  gradually came to be dominated by the cultivation of cane sugar for export. In the early seventeenth century, the province of Pernambuco reaches the rank of major and richest area of sugar production in the world.1 With the expansion of the mills and the occupation of new areas for cultivation, the Brazilian territory inserts on the trade routes of the old world and becomes gradually occupied by landlords, missionaries, freemen and wide contingent of African slaves. At the end of the seventeenth century were discovered rich deposits of gold in the current states of Minas Gerais, 2 Goiás and Mato Grosso has been instrumental to the settlement of the interior of Brazil. In 1789, when the Portuguese Crown announced the Pour measured for charge alleged back taxes, erupted in Vila Rica (now Ouro Preto) the Minas Conspiracy. The revolt failed and, in 1792, one of its leaders, Tiradentes, died enforcado.3"
+  }
+  ,"imagem": {
+    "principal" : "",
+    "legenda" : "Arrival of someone by the sea",
+    "textoAlternativo" : "Alternative image text"
+  }
+  ,"link": {
+    "referencia" : "Reference Content",
+    "title" : "Reference Content"
+  }
+}
